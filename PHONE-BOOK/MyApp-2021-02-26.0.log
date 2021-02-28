@@ -1,0 +1,40 @@
+2021-02-26 14:01:10,119 [restartedMain] INFO  com.ashokit.PhoneBookApplication                   - Starting PhoneBookApplication using Java 1.8.0_271 on DESKTOP-NSSG7AS with PID 11644 (D:\STS\13-JRTP\PHONE-BOOK\target\classes started by Dell in D:\STS\13-JRTP\PHONE-BOOK)
+2021-02-26 14:01:10,122 [restartedMain] INFO  com.ashokit.PhoneBookApplication                   - No active profile set, falling back to default profiles: default
+2021-02-26 14:01:10,263 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-26 14:01:10,266 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-26 14:01:12,625 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-26 14:01:12,702 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2021-02-26 14:01:13,038 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$149cf91a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-26 14:01:13,077 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping        - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-02-26 14:01:13,434 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-02-26 14:01:13,443 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-02-26 14:01:13,444 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-02-26 14:01:13,445 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-26 14:01:13,575 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-02-26 14:01:13,578 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3305 ms
+2021-02-26 14:01:13,927 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-02-26 14:01:14,277 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-02-26 14:01:14,287 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-02-26 14:01:14,533 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-26 14:01:14,590 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-02-26 14:01:14,727 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-26 14:01:14,844 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-26 14:01:15,440 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-26 14:01:15,451 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-26 14:01:15,489 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-02-26 14:01:16,015 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-26 14:01:16,332 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-02-26 14:01:16,552 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-26 14:01:16,873 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-02-26 14:01:16,895 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-02-26 14:01:16,897 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-02-26 14:01:16,912 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-02-26 14:01:16,924 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-02-26 14:01:17,102 [restartedMain] INFO  com.ashokit.PhoneBookApplication                   - Started PhoneBookApplication in 7.393 seconds (JVM running for 8.861)
+2021-02-26 14:01:36,853 [http-nio-9090-exec-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-26 14:01:36,853 [http-nio-9090-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-02-26 14:01:36,857 [http-nio-9090-exec-5] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 4 ms
+2021-02-26 14:02:08,323 [http-nio-9090-exec-1] INFO  com.ashokit.controller.ContactController           - ***     getAll Contacts()  Record Not Found     ***
+2021-02-26 14:03:22,370 [http-nio-9090-exec-6] INFO  com.ashokit.controller.ContactController           - ***     Save Contact Contact Saved     * **
+2021-02-26 14:03:41,715 [http-nio-9090-exec-10] INFO  com.ashokit.controller.ContactController           - ***     Save Contact Contact Saved     * **
+2021-02-26 14:05:09,587 [http-nio-9090-exec-5] INFO  com.ashokit.controller.ContactController           - ***      DeleteContactsById()    Record Delete ***
